@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import CaseStudies from './Expert/CaseStudies'
 import Casestudy from './Expert/Casestudy'
 import Header from './Header'
@@ -11,7 +11,9 @@ import Expert from './MobileDesigns/Expert/Expert'
 import { useRouter } from 'next/router'
 
 
-const ExpertC = () => {
+
+export default function ExpertC ({alldata}){
+ 
   const router = useRouter();
     const contactus = () => {
         router.push("/contact-us")
@@ -40,13 +42,13 @@ const ExpertC = () => {
       <main className={styles.main_height}>
         <div className='display_h'>
         <Newheader />
-        <Casestudy/>
-        <CaseStudies/>
+        <Casestudy compdata={alldata}/>
+        <CaseStudies compdata={alldata}/>
         <Newfooter />
         </div>
         <div className='display_pc'>
         <Newheader />
-        <Expert />
+        <Expert compdata={alldata} />
         <Newfooter />
         </div>
       </main>
@@ -54,4 +56,3 @@ const ExpertC = () => {
   )
 }
 
-export default ExpertC

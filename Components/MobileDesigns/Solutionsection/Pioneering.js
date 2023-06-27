@@ -9,7 +9,7 @@ function Pioneering({heading}) {
     const [tabs, setTabs] = useState([]);
     useEffect(() => {
         setTabs(heading?.second_section)
-        console.log(heading?.second_section)
+        // console.log(heading?.second_section)
       }, [])
     return (
         <>
@@ -29,7 +29,7 @@ function Pioneering({heading}) {
                 </div>
                 <div className='col-md-12 px-0 pt-3 text-left'>
                     <p className='heading_poineer'>{heading?.second_section_heading}</p>
-                    {tabs.map((item, index) => {
+                    {heading?.second_section?.map((item, index) => {
                         return (
                             <div key={index}>
                             <p className='text_health_head mb-1'>{item.heading}</p>

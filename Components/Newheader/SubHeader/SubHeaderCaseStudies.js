@@ -73,7 +73,64 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
                 link="/case-studies/Plexarr"
               />
             </div>
-          </div>
+            </div>
+            <div
+            style={{ marginLeft: "2vw" }}
+            className={Styles.subHeadingSubChild}
+          >
+             <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                icon="marketing"
+                title="Buzz "
+                desc="Enterprise-Grade Communication Platform"
+                style="blue"
+                link={"/case-studies/buzz"}
+              />
+            </div> 
+             <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                icon="web"
+                title="Chelsford"
+                desc="Premier Learning Management System & Student Portal"
+                style="green"
+                link="/case-studies/Chelsford"
+              />
+            </div>
+            <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                icon="software"
+                title="London Franchise"
+                desc="Expert Medical Franchise System in London "
+                style="yellow"
+                link="/case-studies/London-Franchise"
+              />
+            </div>
+           
+            </div>
+            <div
+            style={{ marginLeft: "2vw" }}
+            className={Styles.subHeadingSubChild}
+          >
+            <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                icon="marketing"
+                title="Digicon "
+                desc="Construction negotiating prices system"
+                style="blue"
+                link={"/case-studies/Digicon"}
+              />
+            </div> 
+            <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                icon="software"
+                title="iReach"
+                desc="Expert Medical Franchise System in London "
+                style="yellow"
+                link="/case-studies/iReach"
+              />
+            </div>
+            </div>
+         
 
           {/* <div
             style={{ marginLeft: "2vw" }}

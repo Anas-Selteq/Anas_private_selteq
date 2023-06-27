@@ -30,7 +30,8 @@
             {
                 "id":1,
                 "heading":"Contact Management:",
-                "paragraph":"Efficiently manage and organize customer contacts, store important details, track interactions, and maintain a centralized database for easy access and effective communication."
+                "paragraph":"Efficiently manage and organize customer contacts, store important details, track interactions, and maintain a centralized database for easy access and effective communication.",
+                "open": true 
             },
             {
                 "id":2,
@@ -84,7 +85,8 @@
             {
                 "id":1,
                 "heading":"Finance and Accounting",
-                "paragraph":"Efficiently manage financial processes, including budgeting, invoicing, accounts payable and receivable, financial reporting, and tax management, ensuring accurate and transparent financial data."
+                "paragraph":"Efficiently manage financial processes, including budgeting, invoicing, accounts payable and receivable, financial reporting, and tax management, ensuring accurate and transparent financial data.",
+                "open": true 
 
             },
             {
@@ -147,7 +149,8 @@
             {
                 "id":1,
                 "heading":"Intelligent Booking Empowered by AI",
-                "paragraph":"Harness the potential of artificial intelligence to optimize your booking procedures, guaranteeing optimal scheduling and effective resource allocation."
+                "paragraph":"Harness the potential of artificial intelligence to optimize your booking procedures, guaranteeing optimal scheduling and effective resource allocation.",
+                "open": true 
             },
             {
                 "id":2,
@@ -155,24 +158,19 @@
                 "paragraph":"Simplify your business processes with a fully digitalized booking system, eradicating the need for paperwork and manual procedures."
 
               },
-            {
-                "id":3,
-                "heading":"Enhanced Customer Delight",
-                "paragraph":"Deliver a flawless and convenient booking experience to your clientele, enhancing satisfaction levels and fostering customer loyalty."
-                        },
                         {
-                            "id":4,
+                            "id":3,
                             "heading":"Enhanced Customer Delight",
                             "paragraph":"Deliver a flawless and convenient booking experience to your clientele, enhancing satisfaction levels and fostering customer loyalty.."
             
                         },
                         {
-                            "id":5,
+                            "id":4,
                             "heading":"Resource Optimization at Its Best",
                             "paragraph":"Optimize the utilization of your resources by efficiently managing and allocating assets, reducing wastage, and enhancing profitability.."
                           },
                         {
-                            "id":6,
+                            "id":5,
                             "heading":"Lean Staffing Requirementsg",
                             "paragraph":"Through automated processes and efficient scheduling, minimize the necessity for excessive staffing, resulting in significant cost savings."
                                     }
@@ -186,7 +184,7 @@
     },
     {
         "id": 4,
-        "path":"ondelpms",
+        "path":"ondelafs",
         "heading":"Ondel",
         "sub_heading":"The Leading AI-Powered Accounting Software for All Businesses.",
         "sub_head_paagraph":"Ondel is an advanced Accounting Software designed to streamline financial operations and ensure accurate record-keeping for businesses of all sizes. With its comprehensive features and user-friendly interface, Ondel simplifies financial management and enables businesses to make informed decisions with confidence. Efficiently manage and maintain an accurate record of financial transactions, ensuring a clear and organized overview of your company's financial health.",
@@ -216,7 +214,8 @@
             {
                 "id":1,
                 "heading":"Accounts Receivable & Payable",
-                "paragraph":"Effectively manage customer invoices and vendor bills, track payments, and streamline the invoicing process to optimize cash flow."
+                "paragraph":"Effectively manage customer invoices and vendor bills, track payments, and streamline the invoicing process to optimize cash flow.",
+                "open": true 
             },
             {
                 "id":2,
@@ -242,6 +241,7 @@
                           }
         ]
     },
+    
     {
         "id": 5,
         "path":"buzz",
@@ -274,7 +274,8 @@
             {
                 "id":1,
                 "heading":"Audio & Video Calls:",
-                "paragraph":"Buzz enables high-quality audio and video calls, fostering face-to-face communication regardless of physical distance. Users can engage in productive discussions, conduct virtual meetings, and build stronger connections through rich multimedia interactions."
+                "paragraph":"Buzz enables high-quality audio and video calls, fostering face-to-face communication regardless of physical distance. Users can engage in productive discussions, conduct virtual meetings, and build stronger connections through rich multimedia interactions.",
+                "open": true 
             },
             {
                 "id":2,
@@ -332,7 +333,8 @@
             {
                 "id":1,
                 "heading":"Advanced Form Validation:",
-                "paragraph":"Ensure data accuracy and integrity with advanced form validation capabilities that validate input fields based on predefined rules, preventing submission of incorrect or incomplete information."
+                "paragraph":"Ensure data accuracy and integrity with advanced form validation capabilities that validate input fields based on predefined rules, preventing submission of incorrect or incomplete information.",
+                "open": true 
             },
             {
                 "id":2,
@@ -396,7 +398,8 @@
             {
                 "id":1,
                 "heading":"Import or Export Inventory:",
-                "paragraph":"Enabling seamless import and export of inventory data, allowing users to efficiently update stock information in bulk. This feature simplifies the process of adding or updating inventory items, saving time and reducing manual data entry."
+                "paragraph":"Enabling seamless import and export of inventory data, allowing users to efficiently update stock information in bulk. This feature simplifies the process of adding or updating inventory items, saving time and reducing manual data entry.",
+                "open": true 
             },
             {
                 "id":2,
@@ -431,7 +434,7 @@
     {
         "id": 8,
         "path":"ireach",
-        "heading":"IReach",
+        "heading":"iReach",
         "sub_heading":"Manage Your Workforce with AI-Driven HRMS",
         "sub_head_paagraph":"iReach is a comprehensive HR management software that streamlines and automates various aspects of human resource operations. With its advanced features and user-friendly interface, iReach simplifies HR processes and enhances organizational efficiency. Incorporating an AI-based Employee Self-Service (ESS) system, empowering employees to access and manage their personal information, leave requests, performance records, and more. This self-service functionality reduces administrative burden and improves employee engagement.",
         "second_section_heading":"Elevate HR with iReach",
@@ -460,7 +463,8 @@
             {
                 "id":1,
                 "heading":"Organogram View",
-                "paragraph":"Providing an intuitive organogram view, displaying the hierarchical structure of the organization. This visual representation helps HR managers and employees better understand reporting lines, team structures, and facilitates effective communication and decision-making."
+                "paragraph":"Providing an intuitive organogram view, displaying the hierarchical structure of the organization. This visual representation helps HR managers and employees better understand reporting lines, team structures, and facilitates effective communication and decision-making.",
+                "open": true 
             },
             {
                 "id":2,
@@ -495,7 +499,7 @@
         "id": 9,
         "path":"forwarde",
         "heading":"Forwarde",
-        "sub_heading":"Manage Your Workforce with AI-Driven HRMS",
+        "sub_heading":"Employee Onboarding System with AI Technology",
         "sub_head_paagraph":"Forwarde is a comprehensive onboarding software designed to streamline and enhance the onboarding process for organizations. With its user-friendly interface and powerful features, Forwarde enables efficient and engaging onboarding experiences, fostering seamless integration and productivity for new hires. Simplifying the preboarding and offboarding processes by providing a structured framework. It allows organizations to seamlessly manage tasks such as paperwork, documentation, and orientation materials for new hires, as well as exit interviews and offboarding procedures for departing employees.",
         "second_section_heading":"Empower Onboarding Success ",
         "second_section_paragraph":"Accelerate Onboarding Excellence with Forwarde's Advanced Software ",
@@ -523,7 +527,8 @@
             {
                 "id":1,
                 "heading":"Role-Based Access & Permissions",
-                "paragraph":"Offering role-based access and permissions, allowing organizations to define different levels of access and control for various users. This ensures that only authorized personnel have access to sensitive information and resources, maintaining data security and privacy.                ."
+                "paragraph":"Offering role-based access and permissions, allowing organizations to define different levels of access and control for various users. This ensures that only authorized personnel have access to sensitive information and resources, maintaining data security and privacy.",
+                "open": true 
             },
             {
                 "id":2,
@@ -550,7 +555,7 @@
     },
     {
         "id": 10,
-        "path":"ondelafs",
+        "path":"ondelpms",
         "heading":"Ondel",
         "sub_heading":"An AI-Based Project Management Software.",
         "sub_head_paagraph":"Ondel is a comprehensive project management software designed to streamline and optimize project workflows. It offers a range of powerful features that enable teams to effectively plan, track, and manage their projects, resulting in improved productivity and project success. Effortlessly track and monitor project milestones with Ondel. This feature allows you to set important milestones, define their deadlines, and keep a close eye on their progress. It helps you stay organized and ensures that key project goals are met on time.",
@@ -580,7 +585,8 @@
             {
                 "id":1,
                 "heading":"Kanban Boards",
-                "paragraph":"Ondel provides intuitive Kanban boards that visualize your project tasks and workflow. Easily manage and prioritize tasks by dragging and dropping them across customizable columns, giving you a clear overview of the project status and enabling efficient task management.."
+                "paragraph":"Ondel provides intuitive Kanban boards that visualize your project tasks and workflow. Easily manage and prioritize tasks by dragging and dropping them across customizable columns, giving you a clear overview of the project status and enabling efficient task management..",
+                "open": true 
             },
             {
                 "id":2,
@@ -638,7 +644,8 @@
             {
                 "id":1,
                 "heading":"Billing & Order Processing",
-                "paragraph":"Efficiently process customer orders, generate invoices, and manage billing cycles to ensure smooth and accurate transaction handling."
+                "paragraph":"Efficiently process customer orders, generate invoices, and manage billing cycles to ensure smooth and accurate transaction handling.",
+                "open": true 
             },
             {
                 "id":2,
@@ -696,7 +703,8 @@
             {
                 "id":1,
                 "heading":"Smart Scheduling Tools:",
-                "paragraph":"Optimize training schedules and resource allocation with intelligent scheduling tools that consider availability, preferences, and prerequisites, ensuring efficient utilization of time and resources.."
+                "paragraph":"Optimize training schedules and resource allocation with intelligent scheduling tools that consider availability, preferences, and prerequisites, ensuring efficient utilization of time and resources.",
+                "open": true 
             },
             {
                 "id":2,
@@ -759,7 +767,8 @@
             {
                 "id":1,
                 "heading":"Customizable Booking Form",
-                "paragraph":"Create personalized and tailored booking forms to capture specific information from clients, enabling businesses to gather relevant details for each appointment."
+                "paragraph":"Create personalized and tailored booking forms to capture specific information from clients, enabling businesses to gather relevant details for each appointment.",
+                "open": true 
             },
             {
                 "id":2,
@@ -817,7 +826,8 @@
             {
                 "id":1,
                 "heading":"Data Mining:",
-                "paragraph":"Discover hidden patterns, trends, and relationships within large datasets using advanced algorithms and techniques, extracting valuable insights for strategic decision-making."
+                "paragraph":"Discover hidden patterns, trends, and relationships within large datasets using advanced algorithms and techniques, extracting valuable insights for strategic decision-making.",
+                "open": true 
             },
             {
                 "id":2,
@@ -842,13 +852,13 @@
                             "paragraph":"Design and build specialized data marts and data cubes to facilitate multidimensional analysis, enabling users to explore data from different perspectives and dimensions."
                           },
                           {
-                            "id":4,
+                            "id":6,
                             "heading":"Social Media Analytics:",
                             "paragraph":"Analyze social media data to understand customer sentiment, engagement, and trends, helping organizations make data-driven decisions regarding marketing strategies and brand management."
             
                         },
                         {
-                            "id":5,
+                            "id":7,
                             "heading":"Time Series Analysis:",
                             "paragraph":"Examine data collected over time to identify patterns, seasonality, and forecasting trends, enabling organizations to make accurate predictions and optimize resource planning."
                           }
@@ -886,7 +896,8 @@
             {
                 "id":1,
                 "heading":"Enterprise Content Management (ECM):",
-                "paragraph":"Leverage ECM capabilities to organize, store, and version control documents in a secure and centralized repository, ensuring easy access and collaboration across teams."
+                "paragraph":"Leverage ECM capabilities to organize, store, and version control documents in a secure and centralized repository, ensuring easy access and collaboration across teams.",
+                "open": true 
             },
             {
                 "id":2,
@@ -911,7 +922,7 @@
                             "paragraph":"Digitize physical documents through scanning capabilities and utilize Optical Character Recognition (OCR) technology to convert scanned images into searchable and editable text."
                           },
                           {
-                            "id":4,
+                            "id":6,
                             "heading":"Cross-Referencing, Annotations & Comments:",
                             "paragraph":"Enhance document collaboration and review processes by enabling cross-referencing, annotations, and commenting functionalities, facilitating feedback and discussions within the document context.                            "
             

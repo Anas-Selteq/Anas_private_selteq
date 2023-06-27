@@ -1265,7 +1265,7 @@ a {
 }
 
 .custom_margintop {
-  margin-top: 60%;
+  margin-top: 10%;
 }
 
 /* ////////////////////////////// */
@@ -1285,6 +1285,23 @@ video {
   margin-top: -35px;
   /* margin-bottom: 50px; */
   overflow: hidden;
+}
+
+.video-container1 {
+  /* min-height: 106vh; */
+  /* height: auto; */
+  width: 100%;
+  object-fit: fill;
+  /* margin-bottom: 50px; */
+  overflow: hidden;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.negative_vide {
+  margin-bottom: -100px !important;
+  position: relative !important;
+  z-index: 111 !important;
 }
 
 .banner_footer_main {
@@ -2540,7 +2557,11 @@ video {
       #311b35 122.04%,
       #201a34 151.26%,
       #1a1a34 171.88%);
+  position: relative;
+  z-index: 1;
 }
+
+
 
 .text_para_value {
   font-family: "Poppins";
@@ -2597,6 +2618,10 @@ video {
 }
 
 @media screen and (max-width: 900px) {
+  .negative_vide {
+    display: none;
+  }
+
   .para_edu {
     font-family: "Poppins";
     font-style: normal;

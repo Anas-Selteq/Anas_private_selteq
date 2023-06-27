@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "../../../styles/softwaremob.module.css"
 
 function Solutionsmain({heading}) {
-  console.log("<><><", heading)
+  // console.log("<><><", heading)
   return (
     <div className='col-md-12 px-0'>
       <div className={styles.backsoft}>

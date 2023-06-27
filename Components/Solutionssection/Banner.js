@@ -2,7 +2,7 @@ import Link from "next/link"
 import styles from "../../styles/banner.module.css";
 
 function Banner({heading}) {
-    console.log("ehhehe " , heading);
+    // console.log("ehhehe " , heading);
     return (
         <div className="col-md-12 px-0 background_white" style={{ zIndex: 0 }}  >
             <div className={styles.solution_erp_banner_background}>

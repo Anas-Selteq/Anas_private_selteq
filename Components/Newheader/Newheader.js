@@ -214,24 +214,24 @@ export default function Newheader() {
     },
     {
       name: "Chelsford ",
-      url: "/under-development",
+      url: "/case-studies/Chelsford/",
     },
     {
       name: "London Franchise ",
-      url: "/under-development",
+      url: "/case-studies/London-Franchise/",
     },
     {
       name: "Digicon",
-      url: "/under-development",
+      url: "/case-studies/Digicon/",
     },
 
     {
       name: "Buzz",
-      url: "/under-development",
+      url: "/case-studies/buzz/",
     },
     {
       name: "iReach",
-      url: "/under-development",
+      url: "/case-studies/iReach/",
     },
     {
       name: "Live Chat System",
@@ -476,8 +476,8 @@ export default function Newheader() {
                       {solutions && <div className={styles.crowBeak}></div>}
                     </div>
                   </div>
-
-                  <div className="dropdown pl-4">
+                    {/* Industries are commented  */}
+                  {/* <div className="dropdown pl-4">
                     <div
                       style={{ height: "100%", position: "relative" }}
                       className="dropbtn "
@@ -491,7 +491,7 @@ export default function Newheader() {
                       Industries{" "}
                       {industy && <div className={styles.crowBeak}></div>}
                     </div>
-                  </div>
+                  </div> */}
                   <div className="dropdown pl-4">
                     <div
                       style={{ height: "100%", position: "relative" }}
@@ -677,7 +677,7 @@ export default function Newheader() {
                         href={item.url}
                         key={index}
                       >
-                        <button className="btn btn-dark mt-1 w-100 text-left">
+                        <button  onClick={() => setNewnav(!newnav)} className="btn btn-dark mt-1 w-100 text-left">
                           {item.name}
                         </button>
                       </Link>
@@ -710,7 +710,7 @@ export default function Newheader() {
               <Collapse in={open2}>
                 <div id="example-collapse-text1">
                   {productsData.map((item, index) => (
-                    <Link className="text_dec_link" href={item.url} key={index}>
+                    <Link  onClick={() => setNewnav(!newnav)} className="text_dec_link" href={item.url} key={index}>
                       <button className="btn btn-dark mt-1 w-100 text-left">
                         {item.name}
                       </button>
@@ -720,7 +720,8 @@ export default function Newheader() {
               </Collapse>
 
               {/* Three  */}
-              <div
+              {/* industries commented  */}
+              {/* <div
                 className="btn btn-danger w-100 text-left pt-2 mt-2"
                 onClick={() => test4()}
                 aria-controls="example-collapse-text1"
@@ -750,7 +751,7 @@ export default function Newheader() {
                     </Link>
                   ))}
                 </div>
-              </Collapse>
+              </Collapse> */}
               {/* Two  */}
               <div
                 className="btn btn-danger w-100 text-left pt-2 mt-2"
@@ -777,7 +778,7 @@ export default function Newheader() {
                   {caseStudyData.map((item, index) => (
                     <Link className="text_dec_link" href={item.url} key={index}>
                       {" "}
-                      <button className="btn btn-dark mt-1 w-100 text-left">
+                      <button  onClick={() => setNewnav(!newnav)} className="btn btn-dark mt-1 w-100 text-left">
                         {item.name}
                       </button>
                     </Link>

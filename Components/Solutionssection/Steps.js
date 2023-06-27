@@ -11,10 +11,21 @@ function Steps({heading}) {
 
   const [tabs, setTabs] = useState([]);
 
+  // useEffect(() => {
+  //   setTabs(heading?.second_section)
+  //   console.log(heading?.second_section)
+  // }, [])
+
   useEffect(() => {
-    setTabs(heading?.second_section)
-    console.log(heading?.second_section)
-  }, [])
+    if (heading?.second_section) {
+      setTabs(heading.second_section);
+      console.log(heading.second_section);
+    }
+  }, [heading]);
+
+  if (!tabs || tabs.length === 0) {
+    return <div>Loading...</div>; // Display a loading state
+  }
   
   
   const handleTabClick = (id) => {
@@ -28,7 +39,7 @@ function Steps({heading}) {
       });
     });
   };
-  console.log("::::::::::::::",tabs)
+  // console.log("::::::::::::::",tabs)
   
 
 
@@ -38,15 +49,13 @@ function Steps({heading}) {
         <div className={styles.digital_background}>
           <div className="col-md-12">
             <div className="row">
-              <div className="col-md-6  pt-3 pb-5 px-5 mb-5">
+              <div className="col-md-6 m-auto px-5 ">
                 <div className="col-md-12 text-center pt-5 pb-5">
                   <h6 className={styles.text_gray}>
-                    PERSONALISED CUSTOMER EXPERIENCES
+                    {heading?.second_section_heading}
                   </h6>
                   <h5>
-                    HELP YOU TO TURN MORE OF YOUR VISITORS
-                    <br />
-                    INTO PAYING CUSTOMERS
+                  {heading?.second_section_paragraph}
                   </h5>
                 </div>
                 <div className={styles.border_left_red} >
@@ -94,7 +103,7 @@ function Steps({heading}) {
                   {tabs ? 
                   <>
                   {tabs?.map(tab => (
-                          <div className="row" key={tab.id}>
+                          <div className="row pt-4" key={tab.id}>
                             <div className={`col-md-1 col-1 ${tab.open ? 'margin_left_icon1' : ' margin_left_icon'}`}>
                               <i className="fas fa-circle"></i>
                             </div>

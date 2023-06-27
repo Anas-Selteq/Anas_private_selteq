@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import styles from "../../styles/Casestudy.module.css"
 
-function CaseStudies() {
+function CaseStudies({compdata}) {
 
     const router = useRouter();
     const plexarr = () => {
